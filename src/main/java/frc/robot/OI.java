@@ -63,7 +63,7 @@ joy = new Joystick(0);
 
 high = new JoystickButton(joy, 2);
 high.whileHeld(new fire(2));
-stopFire = new JoystickButton(joy, 1);
+stopFire = new JoystickButton(joy, 3);
 stopFire.whenReleased(new stopMotor());
 normal = new JoystickButton(joy, 1);
 normal.whenPressed(new fire(1));
